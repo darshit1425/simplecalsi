@@ -20,7 +20,7 @@ class _CalState extends State<Cal> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.orange.shade900,
+        backgroundColor: Colors.black,
         body: Column(
           children: [
             Stack(
@@ -36,7 +36,7 @@ class _CalState extends State<Cal> {
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.blue.shade400,
+                              //color: Colors.white,
                               blurRadius: 500,
                               spreadRadius: 100)
                         ]),
@@ -46,11 +46,11 @@ class _CalState extends State<Cal> {
                   padding: const EdgeInsets.only(right: 170, top: 600),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Colors.blueAccent,
+                        color: Colors.white,
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.blue,
+                              color: Colors.black,
                               blurRadius: 250,
                               spreadRadius: 50)
                         ]),
@@ -80,7 +80,7 @@ class _CalState extends State<Cal> {
                                         color: Colors.white, fontSize: 30)),
                                 Text("$s",
                                     style: TextStyle(
-                                        color: Colors.blue, fontSize: 30)),
+                                        color: Colors.white, fontSize: 30)),
                                 Text("$l",
                                     style: TextStyle(
                                         color: Colors.white, fontSize: 30)),
@@ -93,7 +93,7 @@ class _CalState extends State<Cal> {
                                 alignment: Alignment.bottomRight,
                                 child: Text("$ans",
                                     style: TextStyle(
-                                        color: Colors.blue, fontSize: 70))),
+                                        color: Colors.white, fontSize: 70))),
                             SizedBox(
                               height: 10,
                             ),
@@ -118,7 +118,7 @@ class _CalState extends State<Cal> {
                                   height: 50,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                      color: Colors.blue,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(20)),
                                   child: Text(
                                     "AC",
@@ -140,7 +140,7 @@ class _CalState extends State<Cal> {
                                   height: 50,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                      color: Colors.blue,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(20)),
                                   child: Text(
                                     "+",
@@ -162,7 +162,7 @@ class _CalState extends State<Cal> {
                                   height: 50,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                      color: Colors.blue,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(20)),
                                   child: Text(
                                     "-",
@@ -184,7 +184,7 @@ class _CalState extends State<Cal> {
                                   height: 50,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                      color: Colors.blue,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(20)),
                                   child: Text(
                                     "X",
@@ -221,7 +221,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -254,7 +254,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -287,7 +287,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -324,7 +324,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -357,7 +357,8 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white
+                                            ,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -391,7 +392,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -424,7 +425,7 @@ class _CalState extends State<Cal> {
                                   height: 50,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                      color: Colors.blue,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(20)),
                                   child: Text("/",
                                       style: TextStyle(
@@ -447,7 +448,7 @@ class _CalState extends State<Cal> {
                                     height: 50,
                                     alignment: Alignment.center,
                                     decoration: BoxDecoration(
-                                        color: Colors.blue,
+                                        color: Colors.black,
                                         borderRadius:
                                         BorderRadius.circular(20)),
                                     child: Text("%",
@@ -486,7 +487,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -519,7 +520,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -552,7 +553,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -581,7 +582,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -606,7 +607,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -631,7 +632,7 @@ class _CalState extends State<Cal> {
                                         height: 50,
                                         width: 50,
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Colors.white,
                                             borderRadius:
                                             BorderRadius.circular(20)),
                                         alignment: Alignment.center,
@@ -673,7 +674,7 @@ class _CalState extends State<Cal> {
                                 height: 130,
                                 alignment: Alignment.center,
                                 decoration: BoxDecoration(
-                                    color: Colors.blue,
+                                    color: Colors.black,
                                     borderRadius: BorderRadius.circular(20)),
                                 child: Text("=",
                                     style: TextStyle(
@@ -705,7 +706,7 @@ class _CalState extends State<Cal> {
             color: Colors.transparent.withOpacity(0.40),
             borderRadius: BorderRadius.circular(20)),
         child: Text("$data",
-            style: TextStyle(fontSize: 50, color: Colors.blueAccent)),
+            style: TextStyle(fontSize: 50, color: Colors.white24)),
       ),
     );
   }
